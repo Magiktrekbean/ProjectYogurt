@@ -1,22 +1,25 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Atma:wght@300;400;500;600;700&display=swap');
+:root{ --hover-link-color: #891180;}
+
 body {
   
-    max-width: 100%;
-    height: auto;
+    width: 100%;
+
     display: block;
     margin: 0 auto;
     
+    background: linear-gradient(123.5deg, rgb(244, 219, 251) 29.3%, rgb(255, 214, 214) 67.1%);
+
 }  
 .proyo {
 
     margin: 0 auto;
     padding: 60px;
     font-family: "Atma", serif;
-    max-width: 100%;
     width: 800px;
-    background: linear-gradient(123.5deg, rgb(244, 219, 251) 29.3%, rgb(255, 214, 214) 67.1%);
-
+    background-color: #f9c5cb ;
+ 
   }
   h1 {
     text-align: left;
@@ -52,7 +55,10 @@ padding-left: 75px;
     color: #c54c82;
 
   }
+  p a {text-decoration: none;
+  color: #c54c82;}
 
+  p a:hover{color: var(--hover-link-color);}
   .buyher {
     display: block;
     margin-top: 10px;
@@ -77,16 +83,25 @@ padding-left: 75px;
     text-align: center;
   }
   button:hover {
-    opacity: 0.9;
+    opacity: 70%;
     cursor: pointer;
   }
 .learn {text-align: center;
 color: #c54c82;}
 .learn:hover{ text-decoration: none;
-color: #f4aeba;}
-  .break1 {
-    color: #f4aeba;
-  }
-  .break2 {
-    color: #f4aeba;
+  color: var(--hover-link-color);}
+
+  @media (max-width:576px) {
+    h1{text-align: center;
+      padding: 0 0 15px 0;
+    font-size: 48px;}
+    h2{font-size: 30px;
+    
+  margin: 0;
+padding: 0;}
+  img{width:100%}
+  body{max-width: fit-content;
+  height: auto;}
+    .proyo{max-width: fit-content;
+      height: auto; }
   }
