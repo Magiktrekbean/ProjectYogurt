@@ -1,0 +1,92 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Atma:wght@300;400;500;600;700&display=swap');
+body {
+  
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    
+}  
+.proyo {
+
+    margin: 0 auto;
+    padding: 60px;
+    font-family: "Atma", serif;
+    max-width: 100%;
+    width: 800px;
+    background: linear-gradient(123.5deg, rgb(244, 219, 251) 29.3%, rgb(255, 214, 214) 67.1%);
+
+  }
+  h1 {
+    text-align: left;
+    color: #c54c82;
+    font-family: "Atma", serif;
+  font-weight: 900;
+  font-style: normal;
+padding-left: 75px;
+  }
+  h2 {
+    text-align: left;
+    padding-left: 90px;
+    font-family: "Atma", serif;
+  font-weight: 700;
+  font-style: normal;
+    border-radius: 4px;
+    color: #c54c82;
+ 
+  }
+  img {
+    display: block;
+    margin: 0 auto;
+    width:500px;
+    border-radius: 6px;
+  }
+  p {
+    line-height: 2.5;
+        font-family: "Atma", serif;
+        font-weight: 500;
+        font-style: normal;
+      
+    text-align: center;
+    color: #c54c82;
+
+  }
+
+  .buyher {
+    display: block;
+    margin-top: 10px;
+    text-decoration: none;
+  }
+  .buyher:hover {
+    text-decoration: none;
+  }
+  button {
+    display: block;
+    margin: 0 auto;
+    background: #c54c82;
+    color: #fdfdcb;
+    font-size: 18px;
+    padding: 20px 30px;
+    border: none;
+    border-radius: 6px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+    transition: all 200ms ease-in-out;
+  }
+  a.wiki {
+    text-align: center;
+  }
+  button:hover {
+    opacity: 0.9;
+    cursor: pointer;
+  }
+.learn {text-align: center;
+color: #c54c82;}
+.learn:hover{ text-decoration: none;
+color: #f4aeba;}
+  .break1 {
+    color: #f4aeba;
+  }
+  .break2 {
+    color: #f4aeba;
+  }
